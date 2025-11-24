@@ -8,7 +8,7 @@
    name: job to test our docker action
    runs-on: ubuntu-latest
    steps:
-    - uses: actions/checkout@5
+    - uses: actions/checkout@v4
     - run: chmod +x entrypoint.sh
     - uses: ./
       id: dockerAction
